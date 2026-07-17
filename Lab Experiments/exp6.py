@@ -21,4 +21,4 @@ print("\nEncrypted Text (Hex):", encrypted.hex())
 # Decrypt
 decrypted = unpad(cipher.decrypt(encrypted), DES.block_size)
 
-print("Decrypted Text:", decrypted.decode())python
+print("Decrypted Text:", decrypted.decode())
